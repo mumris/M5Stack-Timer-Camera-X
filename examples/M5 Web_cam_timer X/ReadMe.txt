@@ -10,3 +10,4 @@ Where “password” is your string, which you entered during first run of M5 Ti
 6.	Face recognition is disabled for smallest frame size, as it “hangs” camera.
 7.	On Camera WEB site added favicon, spinning windmill vertical axes rotor Tulip icon (just for a fun), RSSI (WIFI signal strength), frame rate and battery status indicators.
 8.	Web HTML page is no more G-zipped as it is automatically modified when Web password is set. 
+9. 9.	Most companies have policy to filter all traffic coming to Internet. For this task, they target Google Chrome, Internet explorer, Mixrosoft Eadge or Firefox streams through their proxy servers. To avoid your home camera live video stream blocking I recommend Epic Privacy Browser (https://www.epicbrowser.com/).
