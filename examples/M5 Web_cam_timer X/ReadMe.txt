@@ -1,5 +1,13 @@
 This software version is tested on M5 Timer Camera X  and provided "as is" by Saulius Pakalnis (Mumris).
-New features added M5 Timer Camera X (ESP32, sensor OV3660). Compile the sources files with Arduino IDE (https://www.arduino.cc/).  For serial port programming, I recommend free software Termite.exe (https://termite.software.informer.com/3.2/)
+New features added M5 Timer Camera X (ESP32, sensor OV3660). Compile the sources files with Arduino IDE (https://www.arduino.cc/). 
+
+Arduino IDE setup->File->Preferences->Additional Boards Manager URLs:
+https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json
+https://dl.espressif.com/dl/package_esp32_index.json
+
+Arduino IDE setup->Board:"M5Stack-Timer-CAM"
+
+For serial port programming, I recommend free software Termite.exe (https://termite.software.informer.com/3.2/)
 1.	WIFI name and password is set or modified through Serial port connection during M5 Timer Camera X first run time (30 seconds timeout). They becomes default (saved in Nonvolatile memory).
 2.	 Added simple security feature. Web password must be set during first run time (30 seconds timeout). It is saved in Nonvolatile memory. Then on LAN (Ethernet) Timer Camera X page can be accessed http://192.168.x.x:80/password
 3.	Added feature for web access through Internet connection. Two ports (80, 81) must be forwarded in setup of local router. For an example, web access default port 80 to 5001, and live video streaming local port 81 to port 5002.
